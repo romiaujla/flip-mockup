@@ -1,0 +1,14 @@
+.App{
+  margin: 10% auto;
+  width: 80%;
+}
+
+/* Larger Screens */
+@media only screen and (min-width: 680px){
+  .App{
+    width: 50%;
+    max-width: 600px;
+  }
+}
+
+

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.react-card-flip{
+    border: 2px solid black;
+    height: 600px;
+}
+
+.react-card-flipper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-front, .card-back{
+    padding: 20px;   
+    line-height: 1.3em;
+    letter-spacing: 0.06em;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+button{
+    margin: 20px;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 2px solid gray;
+    background: silver;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
