@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background: royalblue;
+    color: white;
+}
+
 .react-card-flip{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 600px;
 }
 
@@ -22,14 +27,20 @@
     font-family: sans-serif;
 }
 
+.card-front p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 button{
     margin: 20px;
     padding: 12px 25px;
     font-weight: bold;
     font-size: 0.9em;
     cursor: pointer;
-    border: 2px solid gray;
-    background: silver;
+    border: none;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.6);
+    background: skyblue;
     text-transform: uppercase;
     border-radius: 10px;
 }
