@@ -3,6 +3,7 @@
 
 A Flip Card explaining who I am and demonstrating my skills. 
 
+- [Link to Live Version](https://romiaujla.github.io/flip-mockup/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
