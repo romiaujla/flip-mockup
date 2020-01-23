@@ -7,7 +7,7 @@ class Card extends Component {
 
     static defaultProps = {
         question: '',
-        answer: '',
+        answers: [],
     }
 
     constructor(props){
@@ -31,7 +31,11 @@ class Card extends Component {
                     <button onClick={this.handleFlip}>Learn about me</button>
                 </div>
                 <div className='card-back'>
-                    <p>{this.props.answer}</p>
+                    {
+                        this.props.answers.map(answer => {
+                            return <p>{answer}</p>;
+                        })
+                    }
                     <button onClick={this.handleFlip}>Thank you.</button>
                 </div>
             </ReactCardFlip>
@@ -42,7 +46,7 @@ class Card extends Component {
 Card.propTypes = {
     // add props and their data types in here
     question: PropTypes.string,
-    answer: PropTypes.string,
+    answers: PropTypes.array,
 }
 
 

@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <Card
         question={'Who Is Raman Aujla?'}
-        answer={'A passionate full stack developer who likes to code, to solve real life problems. A recent graduate from Thinkful where I learned the modern javascript frameworks such as React, Node.js, Express and for managing data we got to learn PSQL. Other than this stack I am currently learning Angular and TypeScript. Having a strong knowledge of the computer science fundamentals has helped me a lot in my learning process. I am currently looking for a long term position in a company that is growing and where I can get to learn new things and grow as an individual with in the company and make some great friends along my new journey. I hope you like my FLIP card, looking forward to hearing from you.'}
+        answers={[
+          'A passionate full stack developer having strong computer science fundamentals. Recently graduated from Thinkful where I got to learn, React, Node.js, Express and PostgreSQL. On the side I have begun learning Angular and TypeScrip to add to my skill set. I also have a good understanding of Java, C++, Visual Basic, MySQL and ASP.Net.',
+          'I am currently looking for a long term patnership with an innovative and a growing company were I can bring my skills to use and grow alongside the company. I am really excited and thankful to have been interviewed by Mercury Studios. I hope you like my FLIP card and am looking forward to hearing from you.'
+        ]}
       >
       </Card>
     </div>
