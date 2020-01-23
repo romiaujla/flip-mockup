@@ -3,25 +3,29 @@
 }
 
 body{
-    background: royalblue;
-    color: white;
+    background: #043353;
+    color: #faf8f0;
 }
 
 .react-card-flip{
-    border: 2px solid white;
     height: 600px;
 }
-
 .react-card-flipper div{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+}
+.react-card-flipper > div{
+    border: 2px solid #faf8f0;
+    border-radius: 10px;
+    background: #18a4e0;
 }
 
 .card-front, .card-back{
-    padding: 20px;   
-    line-height: 1.3em;
+    padding: 40px;   
+    line-height: 1.6em;
     letter-spacing: 0.06em;
     text-align: justify;
     font-family: sans-serif;
@@ -39,8 +43,16 @@ button{
     font-size: 0.9em;
     cursor: pointer;
     border: none;
-    box-shadow: 0 0 6px 2px rgba(0,0,0,0.6);
-    background: skyblue;
+    box-shadow: 0 0 10px 3px rgba(255,255,255,0.4);
+    background: #043353;
+    color: #d3dde6;
     text-transform: uppercase;
     border-radius: 10px;
+    transition: 0.2s;
+}
+
+button:hover,
+button:focus{
+    background: #0a5283;
+    box-shadow: none;
 }
