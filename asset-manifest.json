@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flip-mockup/static/css/main.f3303453.chunk.css",
+    "main.js": "/flip-mockup/static/js/main.9c397bf3.chunk.js",
+    "main.js.map": "/flip-mockup/static/js/main.9c397bf3.chunk.js.map",
+    "runtime-main.js": "/flip-mockup/static/js/runtime-main.2e947fbc.js",
+    "runtime-main.js.map": "/flip-mockup/static/js/runtime-main.2e947fbc.js.map",
+    "static/js/2.ea227180.chunk.js": "/flip-mockup/static/js/2.ea227180.chunk.js",
+    "static/js/2.ea227180.chunk.js.map": "/flip-mockup/static/js/2.ea227180.chunk.js.map",
+    "index.html": "/flip-mockup/index.html",
+    "precache-manifest.2086797215448924d7a09d48047c832e.js": "/flip-mockup/precache-manifest.2086797215448924d7a09d48047c832e.js",
+    "service-worker.js": "/flip-mockup/service-worker.js",
+    "static/css/main.f3303453.chunk.css.map": "/flip-mockup/static/css/main.f3303453.chunk.css.map",
+    "static/js/2.ea227180.chunk.js.LICENSE": "/flip-mockup/static/js/2.ea227180.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e947fbc.js",
+    "static/js/2.ea227180.chunk.js",
+    "static/css/main.f3303453.chunk.css",
+    "static/js/main.9c397bf3.chunk.js"
+  ]
+}
