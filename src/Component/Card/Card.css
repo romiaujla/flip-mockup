@@ -8,7 +8,7 @@ body{
 }
 
 .react-card-flip{
-    height: 600px;
+    height: 700px;
 }
 .react-card-flipper div{
     height: 100%;
@@ -32,8 +32,13 @@ body{
 }
 
 .card-front p{
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
+}
+
+.card-back p{
+    font-size: 0.8em;
+    line-height: 1.5em;
 }
 
 button{
@@ -55,4 +60,14 @@ button:hover,
 button:focus{
     background: #0a5283;
     box-shadow: none;
+}
+
+@media only screen and (min-width: 900px){
+    .card-front p{
+        font-size: 2em;
+    }
+    .card-back p{
+        font-size: 1em;
+        line-height: 1.6em;
+    }
 }
